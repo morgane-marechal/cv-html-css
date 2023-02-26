@@ -29,7 +29,7 @@ ul {
     flex-direction: row;
 }
 
-li {
+.nav {
  margin-left:2px;
  margin-right:5px;
  padding: 1%;  
@@ -39,7 +39,7 @@ li {
  border-radius: 15px;
 }
 
-li:hover{
+.nav:hover{
     box-shadow: inset2px 2px 30px 5px purple,
 }
 
@@ -69,7 +69,7 @@ li:hover{
 }
 
 #bio:hover{
-    filter: brightness(150%);
+    filter: brightness(120%);
     box-shadow: 0px 5px 20px #F468EA;
 }
 .portrait {
@@ -90,6 +90,10 @@ flex-direction: end;
     width: 100px;
     margin: 2%;
     filter: brightness(80%);
+}
+
+#sql{
+    width:10%;
 }
 
 .gif {
@@ -139,6 +143,14 @@ h1, p{
     margin-bottom: 0.3em;
 }
 
+#bio p{
+    font-size: 1.3em;
+    margin-bottom: 2%;
+}
+
+#code-wars{
+	margin:1%0%2%5%;
+}
 #liste-competence, #sites{
     padding-left: 3%;
 }
@@ -155,12 +167,94 @@ a{
     text-transform: uppercase;
 }
 a:hover{
-   color: #F468EA;
+   color:#3EE1A1
 }
 
 #info {
     font-size: 1.5rem;
 }
+
+.img-caroussel{
+	width:100%;
+	padding:2%;
+	border-radius:30px;
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+.card-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    padding:1% 10% 1% 5%;
+
+}
+
+.card-content .lien{
+    margin:1%;
+    width:100%;
+    padding-top:5%;
+    font-size: 1.4em;
+}
+.carousel-item {
+    flex: 1 0 400px;
+    margin: 2% 3% 2% 3%;
+	padding: 2% 2% 3% 2%;
+    scroll-snap-align: start;
+	border-radius: 30px;
+	font-family: 'Nanum Gothic', sans-serif;
+	text-align: justify;
+}
+
+.carousel-projet .carousel-item{
+	background-color: #782672;
+    color:black;
+}
+
+.carousel-projet .carousel-item:hover{
+        background-color: #ff48f3;
+        color:black;
+    }
+    
+
+.carousel-item p{
+	margin-top: 8px;
+}
+.carousel-item h2{
+	text-align: center;
+}
+
+.logoG{
+    width:50%;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 20px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #6309ca;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: rgb(212, 0, 255);
+}
+
+
+
+
 
 
 @media all and (orientation: portrait) {
@@ -174,8 +268,6 @@ a:hover{
         margin-bottom: 0.3em;
      }
 
-     details
-
      #name {
         font-size: 2.5em;
      }
@@ -184,6 +276,13 @@ a:hover{
         height : 50%;
         flex-direction: end;
         }
+	
+	    .card-title {
+        font-size:2.1em;
+    }
+
+
+        
 
 }
 
