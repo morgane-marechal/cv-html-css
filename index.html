@@ -6,16 +6,21 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
-            
+            <script src = "https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.js"></script> 
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>          
+ 
         </head>
     <header>
-        <img class="portrait" src="image/portrait.jpg" alt="Mon avatar">
+        <img class="portrait" src="image/coding.png" alt="Mon avatar"> 
         <div id="name">
-         <h1>Morgane Maréchal</h1>  
+         <h1 class="letters">Morgane Maréchal</h1>  
         </div>        
     </header>
 
     <body>
+
+        <canvas class="canvas-basic1"> </canvas>
+
 
         <nav id="menu">
             <ul>
@@ -27,26 +32,23 @@
                 <li class="nav"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-		
+
+
 		<div id="code-wars"><img class="code-wars" src="https://www.codewars.com/users/morgane-marechal/badges/large" alt="Codewars level"></div>
-    
+        
         <div id="bio">
             <h1>Ma bio</h1>
             <p>Intégration de La Plateforme_ à Marseille en septembre 2022 pour apprendre le développement web. Cette nouvelle école du numérique propose une pédagogie par projet.<br>Au programme : Javascript, PHP, SQL, HTML et CSS ainsi que différents outils comme Git, Github, MariaDB, Linux, Figma, ...</p>
 			<p>Je me suis également formé sur Codecademy pendant un an. J'ai pu acquérir ainsi plusieurs certifications en CSS, Javascript et PHP.
 Je recherche une alternance en développement web pour le début de mars 2023.</p>
         </div>
-		
-		
 
-		
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<div class="scroll"><a  href="#competences"  ><lottie-player src="https://assets1.lottiefiles.com/packages/lf20_o87tttfh.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop autoplay></lottie-player></a></div>
 
-        
-
+	
         <div id="competences">
             <h1> Mes compétences</h1>
-        
-        
             
             <div id="liste-competence">
                 <img class="logo" src="image/html-5.png" alt="HTML">
@@ -57,18 +59,18 @@ Je recherche une alternance en développement web pour le début de mars 2023.</
                 <img class="logo" src="image/python.png" alt="Python">
                 <img class="logo" src="image/photoshop.png" alt="Photoshop">
             </div>
+        </div>
 
         <div id="projets">
             <section class="carousel-projet">
                 <h1>Mes projets</h1>
                 <ul class="carousel-items">
-					
 					<li class="carousel-item">
                         <div class="card">
                             <h2 class="card-title">To do list en Javascript et PHP</h2>
                             <div class="card-content">
-                                <a href="https://github.com/morgane-marechal/todolist" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/todolist/index.php" target="_blank" >Lien vers le site</a>
+                                <a class = "lienimage" href="https://github.com/morgane-marechal/todolist" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
+                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/todolist/index.php" target="_blank" >Website</a>
                             </div>
                         </div>
                   </li>
@@ -78,20 +80,20 @@ Je recherche une alternance en développement web pour le début de mars 2023.</
                             <h2 class="card-title">Livre d'or en Javascript et PHP</h2>
                             <div class="card-content">
                                 <a href="https://github.com/morgane-marechal/livre_dor_JS" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/livre-or-JS/" target="_blank" >Lien vers le site</a>
+                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/livre-or-JS/" target="_blank" >Website</a>
                             </div>
                         </div>
                   </li>
 					
-										<li class="carousel-item">
-                        <div class="card">
+				<li class="carousel-item">
+                    <div class="card">
                             <h2 class="card-title">Oclock</h2>
                             <div class="card-content">
                                 <a href="https://github.com/morgane-marechal/oclock" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/ocklock/index.php" target="_blank" >Lien vers le site</a>
+                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/ocklock/index.php" target="_blank" >Website</a>
                             </div>
                         </div>
-                  </li>
+                </li>
 					
 					
 					
@@ -100,7 +102,7 @@ Je recherche une alternance en développement web pour le début de mars 2023.</
                             <h2 class="card-title">Chess Clock</h2>
                             <div class="card-content">
                                 <a href="https://github.com/morgane-marechal/chess_clock" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/chess_clock/index.html" target="_blank" >Lien vers le site</a>
+                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/chess_clock/index.html" target="_blank" >Website</a>
                             </div>
                         </div>
                   </li>
@@ -112,7 +114,7 @@ Je recherche une alternance en développement web pour le début de mars 2023.</
                             <h2 class="card-title">Site de réservation de salles</h2>
                             <div class="card-content">
                                 <a href="https://github.com/morgane-marechal/reservation-salles" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/reservation-salles/index.php" target="_blank" >Lien vers le site</a>
+                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/reservation-salles/index.php" target="_blank" >Website</a>
                             </div>
                         </div>
                   </li>
@@ -123,20 +125,20 @@ Je recherche une alternance en développement web pour le début de mars 2023.</
                         <h2 class="card-title">Le livre d'or</h2>
                         <div class="card-content">
                             <a href="https://github.com/morgane-marechal/livreor" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                            <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/livreor/index.php" target="_blank" >Lien vers le site</a>
+                            <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/livreor/index.php" target="_blank" >Website</a>
                         </div>
                     </div>
               </li>
 
-										                    <li class="carousel-item">
+				<li class="carousel-item">
                         <div class="card">
                             <h2 class="card-title">Projet wordpress</h2>
                             <div class="card-content">
                                 <a href="https://github.com/morgane-marechal/voyages" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/mycms/index.php" target="_blank" >Lien vers le site</a>
+                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/mycms/index.php" target="_blank" >Website</a>
                             </div>
                         </div>
-                  </li>
+                </li>
 					
 					
 				<li class="carousel-item">
@@ -144,7 +146,7 @@ Je recherche une alternance en développement web pour le début de mars 2023.</
                             <h2 class="card-title">Mémory en PHP</h2>
                             <div class="card-content">
                                 <a href="https://github.com/morgane-marechal/memory" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/memory/index.php" target="_blank" >Lien vers le site</a>
+                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/memory/index.php" target="_blank" >Website</a>
                             </div>
                         </div>
                   </li>
@@ -156,13 +158,10 @@ Je recherche une alternance en développement web pour le début de mars 2023.</
                             <h2 class="card-title">Morpion</h2>
                             <div class="card-content">
                                 <a href="https://github.com/morgane-marechal/morpion" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/morpion/index.html" target="_blank" >Lien vers le site</a>
+                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/morpion/index.html" target="_blank" >Website</a>
                             </div>
                         </div>
                   </li>
-
-
-
 
 
                     <li class="carousel-item">
@@ -170,34 +169,27 @@ Je recherche une alternance en développement web pour le début de mars 2023.</
                             <h2 class="card-title">Mon CV</h2>
                             <div class="card-content">
                                 <a href="https://github.com/morgane-marechal/cv-html-css" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/" target="_blank" >Lien vers le site</a>
+                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/" target="_blank" >Website</a>
                             </div>
                         </div>
                   </li>
-                      <li class="carousel-item">
-                            <div class="card">
-                                <h2 class="card-title">Le site de LaPlateforme_</h2>
-                                <div class="card-content">
-                                    <a href="https://github.com/morgane-marechal/site-la-plateforme" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                    <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/site-la-plateforme/" target="_blank" >Lien vers le site</a>
-                                </div>
-                            </div>
-                      </li>
-                      <li class="carousel-item">
+
+                    <li class="carousel-item">
                         <div class="card">
                             <h2 class="card-title">Le Fansite</h2>
                             <div class="card-content">
                                 <a href="https://github.com/morgane-marechal/fansite" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/fansite/" target="_blank" >Lien vers le site</a>
+                                <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/fansite/" target="_blank" >Website</a>
                             </div>
                         </div>
-                        </li>
+                    </li>
+
                         <li class="carousel-item">
                             <div class="card">
                                 <h2 class="card-title">Le site de voyages</h2>
                                 <div class="card-content">
                                     <a href="https://github.com/morgane-marechal/voyages" target="_blank" ><img class="logoG" src="image/github-noir.png" alt="github"></a>
-                                    <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/voyages/index.html" target="_blank" >Lien vers le site</a>
+                                    <a class ="lien" href="https://morgane-marechal.students-laplateforme.io/voyages/index.html" target="_blank" >Website</a>
                                 </div>
                             </div>
                       </li>
@@ -207,9 +199,12 @@ Je recherche une alternance en développement web pour le début de mars 2023.</
 
         </div>
 
+        <div class="scroll"><a  href="#exp-pro"  ><lottie-player src="https://assets1.lottiefiles.com/packages/lf20_o87tttfh.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop autoplay></lottie-player></a></div>
+
+
         <div id="exp-pro">
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <h1>Mon expérience</h1>
+            <h1>Mes expériences</h1>
 
                 <p>Septembre 2016/ Juillet 2022 : Professeur documentaliste au Collège</p> 
                 <p>Janvier/Décembre 2015 : Chargée de communication dans l’association b2oB</p>
@@ -232,6 +227,8 @@ Je recherche une alternance en développement web pour le début de mars 2023.</
                 <img class="gif" src="image/pet_cat.gif" alt="Chat">
             </div>
         </div>
+
+
     
 
         <div id="contact">
@@ -243,9 +240,10 @@ Je recherche une alternance en développement web pour le début de mars 2023.</
                     <a href="https://github.com/morgane-marechal" target="_blank" ><img class="logo" src="image/logo-github.png" alt="github"></a>
                     <a href="https://codepen.io/Morganitus" target="_blank" ><img class="logo" src="image/codepen.png" alt="codepen"> </a>
                     <a href="https://www.linkedin.com/in/morgane-m-a5aab492/" target="_blank"><img class="logo" src="image/linkedin.png" alt="linkedin"></a>
-                </div>
+                </div>  
 
-                
+        <script defer type="text/javascript" src="script.js"></script>
         </div>
+  
     </body>
 </html>
